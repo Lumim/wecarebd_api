@@ -1,0 +1,30 @@
+{
+    "name": "wecarebd",
+    "version": "1.0.0",
+    "description": "wecare api web",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Lumim/wecare-app1.git"
+    },
+    "keywords": [
+        "healthcare"
+    ],
+    "author": "lamim sarker",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Lumim/wecare-app1/issues"
+    },
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "mongoose": "^5.8.10",
+        "pug": "^3.0.0"
+    },
+    "homepage": "https://github.com/Lumim/wecare-app1#readme"
+}
