@@ -1,9 +1,14 @@
+const express = require("express");
+const app = express();
+
 const PORT = process.env.PORT || 3000;
 
-app.listen(PORT, () => {
-  console.log(`Server running on port ${PORT}`);
+// routes
+app.get("/", (req, res) => {
+  res.send("WeCare API running");
 });
 
-app.get("/", (req, res) => {
-  res.send("WeCare API is running 🚀");
+// start server
+app.listen(PORT, () => {
+  console.log(`Server running on port ${PORT}`);
 });
