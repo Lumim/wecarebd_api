@@ -1,14 +1,12 @@
 const express = require("express");
-const app = express();
+const path = require("path");
 
+const app = express();
 const PORT = process.env.PORT || 3000;
 
-// routes
-app.get("/", (req, res) => {
-  res.send("WeCare API running");
-});
+// serve static files
+app.use(express.static(path.join(__dirname, "public")));
 
-// start server
 app.listen(PORT, () => {
   console.log(`Server running on port ${PORT}`);
 });

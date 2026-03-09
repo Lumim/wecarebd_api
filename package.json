@@ -1,7 +1,7 @@
 {
-    "name": "wecarebd",
+    "name": "Lummim",
     "version": "1.0.0",
-    "description": "wecare api web",
+    "description": "Lummim Sarker is a software developer with expertise in web development, particularly in building RESTful APIs using Node.js and Express. He has experience working with MongoDB for database management and is proficient in using body-parser and cors middleware for handling HTTP requests and enabling cross-origin resource sharing. Lummim is passionate about creating efficient and scalable applications that provide seamless user experiences.",
     "main": "server.js",
     "scripts": {
         "start": "node server.js",
