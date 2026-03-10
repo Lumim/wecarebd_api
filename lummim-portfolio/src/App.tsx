@@ -12,7 +12,7 @@ function App() {
       minHeight:"100vh"
     }}>
 
-      <Hero />
+      <Hero/>
 
       <Projects />
 
